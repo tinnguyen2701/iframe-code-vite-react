@@ -28,3 +28,7 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+- File env phải có VITE\_ đằng trước
+- Tk vite config chạy trc env do đó trong file config k đọc dc env => do đó cần loadEnv để file config đọc dc biến env
+- npm run preview để sau khi build ra thì xem trc bản preview nếu lên prod sẽ như nào. chứ bấm vào file index sau khi build ra k dc
